@@ -10,14 +10,17 @@ install angular cli first time: `sudo npm install -g @angular/cli`
 After installing Angular CLI, you can check the version of the installed CLI:`ng version`
 
 
-# how to upgrade from ng6 to ng7
+## how to upgrade from ng6 to ng7
+
+if you have ng6, run: `ng update @angular/cli @angular/core`
+
+## other upgrade options if you run into issues with the command above
 
 ## In order to update the angular-cli package installed globally in your system, you need to run:
 ---------------------------------
 npm uninstall -g angular-cli
 npm cache clean or npm cache verify (if npm > 5)
 npm install -g @angular/cli@latest
-
 
 ## Update RxJS (RxJS 6 is deprecated)
 ---------------------------------

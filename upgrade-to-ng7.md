@@ -1,4 +1,6 @@
-https://medium.com/techiediaries-com/angular-6-tutorial-series-jwt-auth-rxjs-6-httpclient-bootstrap-4-material-design-routing-and-f80f29ffcb6d
+
+https://blog.angular.io/version-7-of-angular-cli-prompts-virtual-scroll-drag-and-drop-and-more-c594e22e7b8c
+
 
 # Angular CLI depends on Node.js
 

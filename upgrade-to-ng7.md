@@ -16,31 +16,33 @@ if you have ng6, run: `ng update @angular/cli @angular/core`
 
 ## other upgrade options if you run into issues with the command above
 
-## In order to update the angular-cli package installed globally in your system, you need to run:
----------------------------------
+### In order to update the angular-cli package installed globally in your system, you need to run:
+
+```bash
 npm uninstall -g angular-cli
 npm cache clean or npm cache verify (if npm > 5)
 npm install -g @angular/cli@latest
+```
 
-## Update RxJS (RxJS 6 is deprecated)
----------------------------------
+### Update RxJS (RxJS 6 is deprecated)
+
+```bash
 npm install -g rxjs-tslint
 npm uninstall rxjs-compat
+```
 
+### Then update the core packages and Cli:
 
-## Then update the core packages and Cli:
----------------------------------
-ng update @angular/cli @angular/core
-(Optional: update Node.js to version 10 which is supported in NG7)
-
+```bash
+ng update @angular/cli @angular/core (Optional: update Node.js to version 10 which is supported in NG7)
 
 npm cache verify (recommended)
 npm cache clean (for older npm versions)
 npm cache clean --force
 
-
-
 npm install -g angular-cli - if its your first time
 npm install -g @angular/cli@latest - if u already installed, so for updating
 
 npm upgrade -g @angular/cli
+```
+
